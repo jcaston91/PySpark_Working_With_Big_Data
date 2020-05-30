@@ -13,7 +13,6 @@ Load the baby-names.csv file into Spark dataframe as a text file. Print the data
 b. Filtering and Counting
 First, count the number of rows in the dataframe. Second, filter the dataframe so that it only contains rows that contain John. Count the number of rows in the filtered dataframe.
 
-Working with DataFrames
 In the previous part of the exercise we loaded the data into the dataframe as a text file. As a consequence, Spark treated each line as a record with a single field. While this is useful for some applications (processing raw text), it is not useful when our original data contains structure. In this part of the exercise, load baby-names.csv as a CSV file instead of a text file.
 
 a. Load Data and Show Schema
